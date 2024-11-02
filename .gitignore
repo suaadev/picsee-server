@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.key.json
+google-auth.json
+copyenv.txt
+
+# Logs & Runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+temp/
+tempPic.jpg
+*.tmp
+
+# Build & Coverage
+dist/
+build/
+target/
+coverage/
+.nyc_output/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
